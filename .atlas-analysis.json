@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Kevin Glynn",
+  "projectType": "general",
+  "projectName": "Kevin Glynn — Design Portfolio",
+  "projectDescription": "A curated portfolio of interaction, product, and speculative design work by Kevin Glynn, spanning industrial design, UX/UI, brand identity, and critical design practice.",
   "theme": "willow",
-  "colors": {
-    "primary": "#8c9494",
-    "light": "#c5c6c9",
-    "dark": "#292c2e"
-  },
-  "favicon": "https://media.brand.dev/16d6f182-d6ab-41b2-852a-a6d5aa010034.png",
+  "primaryColor": "#8c9494",
+  "lightColor": "#292c2e",
+  "darkColor": "#c5c6c9",
   "navigation": {
     "tabs": [
       {
@@ -64,11 +62,15 @@
       }
     ]
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "href": "https://kevinglynn.com/contact",
-      "label": "Get in Touch"
-    }
-  }
+  "keyFeatures": [
+    "Industrial and product design",
+    "Interaction and UX/UI design",
+    "Speculative and critical design",
+    "Brand identity and packaging",
+    "Service design and systems thinking",
+    "Voice and conversational UX",
+    "Physical-digital interaction (NFC, Bluetooth)",
+    "Consumer health and wellness design"
+  ],
+  "publicApiSurface": []
 }
